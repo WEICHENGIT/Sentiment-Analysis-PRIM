@@ -1,6 +1,6 @@
 # Sentiment Analysis
 
-## 1 Polarity detection by mLSTM and logistic regression
+## 1 Polarity detection by using mLSTM as feature extractor
 
 Code provided by [Learning to Generate Reviews and Discovering Sentiment](https://arxiv.org/abs/1704.01444) (Alec Radford, Rafal Jozefowicz, Ilya Sutskever).
 
