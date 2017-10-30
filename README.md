@@ -14,16 +14,17 @@ A demo of using the features for sentiment classification for the binary version
 ![Sentiment Unit Visualization](/data/sst_binary_sentiment_unit_vis.png)
 
 ### 1.2 Demo on twitter dataset
-Description of dataset: Collection of tweets in the year of 2016 and their trinary labels (pos, neg, neu), containing 6000 training samples, 1999 validation samples and 20632 test samples.
+Description of dataset: Collection of tweets in the year of 2016 and their trinary labels (pos, neg, neu), containing 6000 training samples, 1999 validation samples and 20632 test samples.(http://alt.qcri.org/semeval2017/task4/index.php?id=data-and-tools)
 
 Due to the limit of the performance of machine and the time cost for the fitting process, I only did the 4-folder cross validation on the  training set by using logistic regression classifier. Cross validation score for trinary classification: 0.60692871  0.61292472  0.58866667  0.64686248.
 
 After deleting all the neutral samples and doing the binary classification, cross validation socre increased to: 0.83535354  0.85858586  0.8554095   0.87449393.
 
-Again we try to verify the so called sentiment unit still exists for this dataset. The histogram blow seems to give us a negative answer. 
+Again we try to verify the so called sentiment unit still exists for this dataset, and is still the 2388th units. The histogram blow seems to give us a negative answer, since we can hardly tell the divergence of pos and neg samples from the histogram.
 
 ![Sentiment Unit Visualization](/tweets_data/untitled1.png)
 
+If we try find the maximal gap among all the units between negative and positive samples. The result is still not plausible.
 ![Sentiment Unit Visualization](/tweets_data/untitled2.png)
 
 
