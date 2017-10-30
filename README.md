@@ -1,8 +1,10 @@
-# Generating Reviews and Discovering Sentiment
+# Sentiment Analysis
 
-Code for [Learning to Generate Reviews and Discovering Sentiment](https://arxiv.org/abs/1704.01444) (Alec Radford, Rafal Jozefowicz, Ilya Sutskever).
+## 1 Polarity detection by mLSTM and logistic regression
 
-Right now the code supports using the language model as a feature extractor.
+Code provided by [Learning to Generate Reviews and Discovering Sentiment](https://arxiv.org/abs/1704.01444) (Alec Radford, Rafal Jozefowicz, Ilya Sutskever).
+
+The code supports using the language model as a feature extractor based on a well trained model.
 
 ```
 from encoder import Model
@@ -11,7 +13,7 @@ model = Model()
 text = ['demo!']
 text_features = model.transform(text)
 ```
-
+### 1.1 Results on IMDb dataset.
 A demo of using the features for sentiment classification as reported in the paper for the binary version of the Stanford Sentiment Treebank (SST) is included as `sst_binary_demo.py`. Additionally this demo visualizes the distribution of the sentiment unit like Figure 3 in the paper.
 
 ![Sentiment Unit Visualization](/data/sst_binary_sentiment_unit_vis.png)
