@@ -16,4 +16,8 @@ A demo of using the features for sentiment classification for the binary version
 ### 1.2 Demo on twitter dataset
 Description of dataset: Collection of tweets in the year of 2016 and their trinary labels (pos, neg, neu), containing 6000 training samples, 1999 validation samples and 20632 test samples.
 
+![Sentiment Unit Visualization](/tweets_data/untitled1.png)
+
+![Sentiment Unit Visualization](/tweets_data/untitled2.png)
+
 
