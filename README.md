@@ -24,7 +24,7 @@ Again we try to verify the so called sentiment unit still exists for this datase
 
 ![Sentiment Unit Visualization](/tweets_data/untitled1.png)
 
-If we try find the maximal gap among all the units between negative and positive samples. The result is still not plausible.
+If we try find to the maximal gap among all the units between negative and positive samples. The result is still not plausible.
 ![Sentiment Unit Visualization](/tweets_data/untitled2.png)
 
 
