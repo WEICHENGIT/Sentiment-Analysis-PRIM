@@ -1,1 +1,1 @@
-  
+  Please go to https://github.com/WEICHENGIT/Sentiment-Analysis-PRIM/releases and download the Amazon model e0.pt to this path.
