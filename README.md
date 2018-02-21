@@ -3,9 +3,6 @@
 
 This repository is the implementation of sentiment analysis based on mLSTM model from paper [Generating Reviews and Discovering Sentiment](https://github.com/openai/generating-reviews-discovering-sentiment).
 
-## [Sentiment Visualization & Opinion Generation Tool.ipynb](https://github.com/WEICHENGIT/Sentiment-Analysis-PRIM/blob/master/Sentiment%20Visualization%20%26%20Opinion%20Generation%20Tool.ipynb) 
-This jupyter notebook provides a sentiment analysis API where you can try to visualize the sentiment expresssed in text, also generate opinions according the initial text you customize. It is based on work from [@guillette](https://github.com/guillitte/pytorch-sentiment-neuron) and [@NVIDIA](https://github.com/NVIDIA/sentiment-discovery).
-
 Python Requirements:
 
     Python 3.5
@@ -16,6 +13,12 @@ Python Requirements:
     matplotlib
     seaborn
     unidecode
+    csv
+    json
+    nltk
+
+## [Sentiment Visualization & Opinion Generation Tool.ipynb](https://github.com/WEICHENGIT/Sentiment-Analysis-PRIM/blob/master/Sentiment%20Visualization%20%26%20Opinion%20Generation%20Tool.ipynb) 
+This jupyter notebook provides a sentiment analysis API where you can try to visualize the sentiment expresssed in text, also generate opinions according the initial text you customize. It is based on work from [@guillette](https://github.com/guillitte/pytorch-sentiment-neuron) and [@NVIDIA](https://github.com/NVIDIA/sentiment-discovery).
 
 ## [Baseline.ipynb](https://github.com/WEICHENGIT/Sentiment-Analysis-PRIM/blob/master/Baseline%20test.ipynb)
 This jupyter notebook contains two baseline tests: SentiWordNet, n-gram. We test both baselines on middle scale of dataset IMDb, however they can be applied to any labelled dataset.
