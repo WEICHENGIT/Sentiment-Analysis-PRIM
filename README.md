@@ -18,7 +18,6 @@ Python Requirements:
     nltk
 
 [Sentiment Visualization & Opinion Generation Tool.ipynb](https://github.com/WEICHENGIT/Sentiment-Analysis-PRIM/blob/master/Sentiment%20Visualization%20%26%20Opinion%20Generation%20Tool.ipynb) 
-
 This jupyter notebook provides a sentiment analysis API where you can try to visualize the sentiment expresssed in text, also generate opinions according the initial text you customize. It is based on work from [@guillette](https://github.com/guillitte/pytorch-sentiment-neuron) and [@NVIDIA](https://github.com/NVIDIA/sentiment-discovery).
 
 [Baseline test.ipynb](https://github.com/WEICHENGIT/Sentiment-Analysis-PRIM/blob/master/Baseline%20test.ipynb)
